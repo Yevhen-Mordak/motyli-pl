@@ -83,4 +83,5 @@ import { ExamplesComponent } from './components/examples/examples.component';
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
