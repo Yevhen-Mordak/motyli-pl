@@ -5,9 +5,6 @@
 .mat-toolbar{ flex-wrap: wrap;}
 .mat-toolbar-row, .mat-toolbar-single-row {
     padding: 0;
-    min-height: 64px;
-    height: auto;
-    line-height: 64px;
 }
 
 mat-toolbar > button{
@@ -22,15 +19,21 @@ mat-toolbar > button{
     flex-shrink: 0;
 }
 
-//// If you want your image to be scaled differently (or add/override certain styles for more responsivenss) in different devices you need to use CSS media queries. Eg.
-// img {
-//     display: inline-block;
-//     width: 25%; // Show 4 images in a row normally
-//     height: auto;
-// }
 
-// @media (max-width: 600px) {
-//   img {
-//     width: 100%; // Override width to show only one image in a row on smaller screens
-//   }
-// }
+/*desktop:*/
+.mobile-hidden {
+    display:block;
+}
+.mobile-visible {
+    display:none;
+}
+
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    .mobile-hidden {
+        display:none;
+    }
+    .mobile-visible {
+        display:block;
+    }
+}

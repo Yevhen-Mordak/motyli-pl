@@ -11,10 +11,10 @@ import { KontaktComponent } from './components/kontakt/kontakt.component';
 
 const routes: Routes = [
   { path: '', component: MainComponent }, // default is main
-  { path: 'motyle', component: MotyleComponent }, // default is main
-  { path: 'salut', component: SalutComponent }, // default is main
-  { path: 'farma', component: FarmaComponent }, // default is main
-  { path: 'kontakt', component: KontaktComponent }, // default is main
+  { path: 'motyle', component: MotyleComponent }, 
+  { path: 'salut', component: SalutComponent }, 
+  { path: 'farma', component: FarmaComponent },
+  { path: 'kontakt', component: KontaktComponent },
   { path: '**', component: PageNotFoundComponent } // no match go to 404
 ];
 
