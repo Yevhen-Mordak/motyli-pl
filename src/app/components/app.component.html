@@ -1,42 +1,25 @@
 <div class="flex-vertical" >
   <mat-toolbar color="primary" class="flex-horizontal flex-shrink-0">
-    <button mat-button class="flex-shrink-0"><img class="header-image" src="assets\images\butterfly-2028592.svg"/>Motyli.pl</button>
+    <button mat-button class="flex-shrink-0" routerLink="/"><img class="header-image" src="assets\images\butterfly-2028592.svg"/>Motyli.pl</button>
     <div class="flex-filler"></div>
-    <button mat-button class="flex-shrink-0">Nasze Motyle</button>
-    <button mat-button class="flex-shrink-0">Salut z Motyli</button>
-    <button mat-button class="flex-shrink-0">Mini Farma Motyli</button>
-    <button mat-button class="flex-shrink-0">Kontakt</button>
+    <button mat-button class="flex-shrink-0" routerLink="/motyle">Nasze Motyle</button>
+    <button mat-button class="flex-shrink-0" routerLink="/salut">Salut z Motyli</button>
+    <button mat-button class="flex-shrink-0" routerLink="/farma">Mini Farma Motyli</button>
+    <button mat-button class="flex-shrink-0" routerLink="/kontakt">Kontakt</button>
   </mat-toolbar>
 
   <div class="flex-horizontal flex-shrink-0">
     <div class="flex-filler"></div>
-      <div class="flex-vertical central-panel">
+      <router-outlet class="central-panel"></router-outlet>
+      <!-- <div class="central-panel">
         <app-carousel></app-carousel>
-
         <h2 style="background-color:lightcyan; flex:0;">pomysł na prezent</h2>
-
         <h2 style="background-color:lightskyblue; flex:0;">towary</h2>
-
         <h2 style="background-color:lightpink; flex:0;">happy-feedback</h2>
-
-    </div>
+      </div> -->
     <div class="flex-filler"></div>
   </div>
-  
-  <div class="flex-filler"></div>
 
-  <footer class="flex-shrink-0">
-    <div color="primary" class="flex-horizontal">
-      <p>Regulamin</p>
-      <p>Dostawa i Platność</p>
-      <p>Reklamacje</p>
-    </div>
-    <ul> TO DO List:
-      <li>instrukcja-heshtag-like</li>
-      <li>magnes-kontakt</li>
-      <li>FAQ</li>
-      <li>fb messenger</li>
-      <li>adaptive layout</li>
-    </ul>
-  </footer>
+  <div class="flex-filler"></div>
+  <app-footer class="flex-shrink-0"></app-footer>
 </div>
