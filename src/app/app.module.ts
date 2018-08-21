@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {
   MatAutocompleteModule,
   MatButtonModule,
@@ -37,14 +38,15 @@ import {
 } from '@angular/material';
 
 import { AppComponent } from './components/app.component';
-import { ExamplesComponent } from './components/examples/examples.component';
+import { CarouselComponent } from './components/carousel/carousel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ExamplesComponent
+    CarouselComponent
   ],
   imports: [
+    /*NgbCarousel,  NgbSlide,  NgbCarouselConfig,*/ NgbModule,
     BrowserModule,
     BrowserAnimationsModule,
     MatAutocompleteModule,

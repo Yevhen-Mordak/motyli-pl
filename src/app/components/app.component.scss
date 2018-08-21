@@ -2,7 +2,18 @@
     width: 36px;
     height:36px;
 }
+.mat-toolbar{ flex-wrap: wrap;}
 .mat-toolbar-row, .mat-toolbar-single-row {
-    height: auto;
     padding: 0;
+    min-height: 64px;
+    height: auto;
+    line-height: 64px;
+}
+
+mat-toolbar > button{
+    height: 100%;
+}
+
+.central-panel{
+    max-width: 100%;
 }
