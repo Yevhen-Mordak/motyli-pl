@@ -50,6 +50,7 @@ import { MainComponent } from './components/main/main.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { FaqComponent } from './components/faq/faq.component';
 import { KontaktFormComponent } from './components/kontakt-form/kontakt-form.component';
+import { CardComponent } from './components/card/card.component';
 
 @NgModule({
   declarations: [
@@ -63,7 +64,8 @@ import { KontaktFormComponent } from './components/kontakt-form/kontakt-form.com
     MainComponent,
     FooterComponent,
     FaqComponent,
-    KontaktFormComponent
+    KontaktFormComponent,
+    CardComponent
   ],
   imports: [
     AppRoutingModule,

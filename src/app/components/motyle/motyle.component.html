@@ -1,7 +1,3 @@
 <div>
-  <img class="header-image" src="assets\images\animal-158808_1280.png"/>
-  <img class="header-image" src="assets\images\animal-1297938_1280.png"/>
-  <img class="header-image" src="assets\images\butterfly-295030_1280.png"/>
-  <img class="header-image" src="assets\images\butterfly-1073707_640.png"/>
-  <img class="header-image" src="assets\images\butterfly-2028592.svg"/>
+  <app-card *ngFor="let card of cards" class="adaptive-card" [title]="card.title"  [subtitle]="card.subtitle" [text]="card.text" [image]="card.image"></app-card>
 </div>

@@ -1,20 +1,20 @@
-<form (ngSubmit)="processForm()" name="kontaktForm" title="Formularz Kontaktowy" calss="kontakt-form">
+<form (ngSubmit)="processForm()" name="kontaktForm" title="Formularz Kontaktowy" class="kontakt-form">
 
     <!-- name -->
-    <div class="field">
+    <div class="input-margin">
         <input id="name" name="name" class="form-control" placeholder="Imię" [(ngModel)]="name" required minlength="2">
     </div>
   
     <!-- email -->
-    <div class="field">
+    <div class="input-margin">
       <input type="email" name="email" class="form-control" placeholder="Email" [(ngModel)]="email">
     </div>
 
     <!-- message -->
-    <div class="field">
+    <div class="input-margin">
       <textarea class="textarea form-control" name="message" placeholder="Czego chciałbyś się dowiedzieć?" [(ngModel)]="message" required></textarea>
     </div>
   
-    <button type="submit" class="mat-button primary">Submit</button>
+    <button class="input-margin" mat-button mat-stroked-button primary type="submit">Wyślij Formularż</button>
   
-  </form>
+</form>
