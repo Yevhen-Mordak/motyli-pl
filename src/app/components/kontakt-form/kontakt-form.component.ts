@@ -6,8 +6,9 @@ import { FormControl, Validators, FormGroup } from '@angular/forms';
   styleUrls: ['./kontakt-form.component.scss']
 })
 export class KontaktFormComponent implements OnInit {
-  name: string;
+  name: any;
   email: string;
+  phone: string;
   message: string;
 
   kontaktForm = new FormGroup({
@@ -28,7 +29,7 @@ export class KontaktFormComponent implements OnInit {
    * Only alerting for now
    */
   processForm() {
-    const allInfo = `My name is ${this.name}. My email is ${this.email}. My message is ${this.message}`;
+    const allInfo = `My name is ${this.name}. My email is ${this.email}, phone: ${this.phone}. My message is ${this.message}`;
     alert(allInfo); 
   }
 

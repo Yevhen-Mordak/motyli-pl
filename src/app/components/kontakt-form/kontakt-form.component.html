@@ -1,20 +1,36 @@
-<form (ngSubmit)="processForm()" name="kontaktForm" title="Formularz Kontaktowy" class="kontakt-form">
+<form (ngSubmit)="processForm()" name="kontaktForm" title="Formularz Kontaktowy" class="kontakt-form" #kontaktForm="ngForm">
 
     <!-- name -->
     <div class="input-margin">
-        <input id="name" name="name" class="form-control" placeholder="Imię" [(ngModel)]="name" required minlength="2">
+        <input id="name" name="name" class="form-control" placeholder="Imię" [(ngModel)]="name" required minlength="2" #nameV="ngModel" >
+        <div *ngIf="nameV.invalid && (nameV.dirty || nameV.touched)" class="alert alert-danger">
+          Błędne imię.
+          <!-- <div *ngIf="nameV.errors.required || nameV.errors.minlength"> 
+          </div> -->
+        </div>
     </div>
   
     <!-- email -->
     <div class="input-margin">
-      <input type="email" name="email" class="form-control" placeholder="Email" [(ngModel)]="email">
+      <input type="email" name="email" class="form-control" placeholder="Email" [(ngModel)]="email"  required minlength="4" #emailV="ngModel" email="true">
+      <div *ngIf="emailV.invalid && (emailV.dirty || emailV.touched)" class="alert alert-danger">
+        Błędny email.
+      </div>
+    </div>
+
+    <!-- phone -->
+    <div class="input-margin">
+      <input type="phone" name="phone" class="form-control" placeholder="Telefon" [(ngModel)]="phone">
     </div>
 
     <!-- message -->
     <div class="input-margin">
-      <textarea class="textarea form-control" name="message" placeholder="Czego chciałbyś się dowiedzieć?" [(ngModel)]="message" required></textarea>
+      <textarea class="textarea form-control" name="message" placeholder="Czego chciałbyś się dowiedzieć?" [(ngModel)]="message" required minlength="4" #textV="ngModel"></textarea>
+      <div *ngIf="textV.invalid && (textV.dirty || textV.touched)" class="alert alert-danger">
+          Chcielibyśmy dowiedzieć się więcej.
+      </div>
     </div>
   
-    <button class="input-margin" mat-button mat-stroked-button primary type="submit">Wyślij Formularż</button>
+    <button class="input-margin" mat-button mat-stroked-button primary type="submit" [disabled]="!kontaktForm.form.valid">Wyślij Formularż</button>
   
 </form>

@@ -1,11 +1,13 @@
 <div>
  <h5>Sprawdź częste pytania</h5>
-  <ngb-accordion>
-      <ngb-panel title="FAQ - Często zadawane pytania">
+  <ngb-accordion #acc="ngbAccordion">
+      <ngb-panel id="acc-header-panel"><!-- title="FAQ - Często zadawane pytania" -->
+        <ng-template ngbPanelTitle> 
+          <p style="margin:0;"><i style="margin-right: 0.5rem;" class="fas" [class.fa-caret-right]="acc.activeIds != 'acc-header-panel'" [class.fa-caret-down]="acc.activeIds == 'acc-header-panel'"></i>FAQ - Często zadawane pytania"</p>
+        </ng-template> 
+
         <ng-template ngbPanelContent>
-
           <app-faq></app-faq>
-
         </ng-template>
       </ngb-panel>
   </ngb-accordion>
