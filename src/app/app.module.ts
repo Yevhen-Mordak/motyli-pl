@@ -38,6 +38,7 @@ import {
   MatStepperModule,
 } from '@angular/material';
 
+import { FormsModule } from '@angular/forms';
 import { AppComponent } from './components/app.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
@@ -47,6 +48,8 @@ import { FarmaComponent } from './components/farma/farma.component';
 import { KontaktComponent } from './components/kontakt/kontakt.component';
 import { MainComponent } from './components/main/main.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { FaqComponent } from './components/faq/faq.component';
+import { KontaktFormComponent } from './components/kontakt-form/kontakt-form.component';
 
 @NgModule({
   declarations: [
@@ -58,13 +61,16 @@ import { FooterComponent } from './components/footer/footer.component';
     FarmaComponent,
     KontaktComponent,
     MainComponent,
-    FooterComponent
+    FooterComponent,
+    FaqComponent,
+    KontaktFormComponent
   ],
   imports: [
     AppRoutingModule,
     /*NgbCarousel,  NgbSlide,  NgbCarouselConfig,*/ NgbModule,
     BrowserModule,
     BrowserAnimationsModule,
+    FormsModule,
     MatAutocompleteModule,
     MatButtonModule,
     MatButtonToggleModule,

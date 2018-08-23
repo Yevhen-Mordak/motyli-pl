@@ -1,0 +1,18 @@
+<ngb-accordion>
+  <ngb-panel title="FAQ - Często zadawane pytania">
+    <ng-template ngbPanelContent>
+
+
+      <ngb-accordion [closeOthers]="true">
+        <ngb-panel ngbSlide *ngFor="let faq of FAQs; let index = index" id="static-{{index}}" [title]="faq.header">
+          <ng-template ngbPanelContent>
+            <p>{{faq.text}}</p>
+            <h6 *ngIf="faq.router">Wiencej czytaj w <a [routerLink]="faq.router.link">{{faq.router.text}}</a></h6>
+          </ng-template>
+        </ngb-panel>
+      </ngb-accordion>
+
+
+    </ng-template>
+  </ngb-panel>
+</ngb-accordion>
