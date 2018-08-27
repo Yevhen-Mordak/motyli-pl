@@ -1,13 +1,25 @@
-.header-image{
-    width: 36px;
-    height:36px;
-}
-.mat-toolbar{ flex-wrap: wrap;}
-.mat-toolbar-row, .mat-toolbar-single-row {
-    padding: 0;
+header.navbar {
+    padding:0;
+    background: linear-gradient(135deg,#0143a3,#0273d4);
+    a{
+        height:100%;
+        color: #fff;
+    }
+    a:hover{
+        color: rgba(255,255,255,.5);
+    }
+    .btn{
+        padding:0.75rem;
+    }
 }
 
-mat-toolbar > button{
+.header-image{
+    max-width: 24px;
+    max-height:24px;
+    margin-right:0.5rem;
+}
+
+div.toolbar > button{
     height: 100%;
 }
 
@@ -26,7 +38,7 @@ mat-toolbar > button{
 .mobile-hidden {
     display:block;
 }
-.mobile-visible {
+.mobile-visible-flex {
     display:none;
 }
 .central-panel{
@@ -46,7 +58,7 @@ mat-toolbar > button{
     .mobile-hidden {
         display:none;
     }
-    .mobile-visible {
-        display:block;
+    .mobile-visible-flex {
+        display:flex;
     }
 }

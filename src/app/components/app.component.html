@@ -1,17 +1,21 @@
 <div class="flex-vertical" >
-  <mat-toolbar color="primary" class="flex-horizontal flex-shrink-0">
-    <button mat-button class="flex-shrink-0" routerLink="/"><img class="header-image" src="assets\images\butterfly-2028592.svg"/>Motyli.pl</button>
-    <div class="flex-filler"></div>
-    <button mat-button class="flex-shrink-0 mobile-hidden" routerLink="/motyle">Nasze Motyle</button>
-    <button mat-button class="flex-shrink-0 mobile-hidden" routerLink="/salut">Salut z Motyli</button>
-    <button mat-button class="flex-shrink-0 mobile-hidden" routerLink="/farma">Mini Farma Motyli</button>
-    <button mat-button class="flex-shrink-0" routerLink="/kontakt">Kontakt</button>
-  </mat-toolbar>
-  <mat-toolbar color="primary" class="mobile-visible flex-horizontal flex-shrink-0">
-    <button mat-button routerLink="/motyle">Nasze Motyle</button>
-    <button mat-button routerLink="/salut">Salut z Motyli</button>
-    <button mat-button routerLink="/farma">Mini Farma Motyli</button>
-  </mat-toolbar>
+  <header class="navbar flex-shrink-0">
+    <div class="flex-vertical" >
+      <div class="flex-horizontal flex-filler flex-shrink-0" >
+        <a  class="btn flex-shrink-0" routerLink="/"><img class="header-image" src="assets\images\butterfly-2028592.svg"/>Motyli.pl</a>
+        <div class="flex-filler"></div>
+        <a class="btn flex-shrink-0 mobile-hidden" routerLink="/motyle">Nasze Motyle</a>
+        <a class="btn flex-shrink-0 mobile-hidden" routerLink="/salut">Salut z Motyli</a>
+        <a class="btn flex-shrink-0 mobile-hidden" routerLink="/farma">Mini Farma Motyli</a>
+        <a class="btn flex-shrink-0" routerLink="/kontakt">Kontakt</a>
+      </div>
+      <div class="mobile-visible-flex flex-horizontal flex-filler flex-shrink-0">
+        <a class="btn flex-filler" routerLink="/motyle">Nasze Motyle</a>
+        <a class="btn flex-filler" routerLink="/salut">Salut z Motyli</a>
+        <a class="btn flex-filler flex-shrink-0" routerLink="/farma">Mini Farma Motyli</a>
+      </div>
+    </div>
+  </header>  
 
   <div class="flex-horizontal flex-shrink-0">
     <div class="flex-filler"></div>
