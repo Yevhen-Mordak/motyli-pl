@@ -1,7 +1,7 @@
 // If you want your image to be scaled differently (or add/override certain styles for more responsivenss) in different devices you need to use CSS media queries. Eg.
 .adaptive-card {
-    display: inline-block;
-    width: 33.3%; // Show 3 images in a row normally
+    display: inline-flex;
+    width: 50%; // Show 3 images in a row normally
     height: auto;
 }
 
