@@ -19,7 +19,7 @@ export class SeoService {
           if (root.children && root.children.length) {
             root = root.children[0];
           } else if (root.data && root.data["title"]) {
-            this.titleService.setTitle(root.data["title"] + " | App Name");
+            this.titleService.setTitle(root.data["title"]);
             let tags = root.data["metatags"];
             for (let tag in tags) {
               this.metaService.addTag({ name: tag, content: tags[tag] });

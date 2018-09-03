@@ -1,1 +1,1 @@
-ng build --prod --output-path docs
+ng build --prod --output-path docs ---base-href https://yevhen-mordak.github.io/motyli-pl
