@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { environment } from '../../environments/environment.prod';
+import { SeoService } from '../services/seo.service';
 
 @Component({
   selector: 'app-root',
@@ -8,5 +9,9 @@ import { environment } from '../../environments/environment.prod';
 })
 export class AppComponent {
   title: string = 'Motyli.pl';
-  
+
+  public constructor (private seoService: SeoService)
+  {
+        seoService. addSeoData()
+  }
 }
