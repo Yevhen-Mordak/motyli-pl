@@ -1,5 +1,23 @@
 footer{
-    background: #555;
-    color: white;
+    padding: 1rem;
+    display:flex;
+    flex-direction: row;
+
+    background: #0143a3;
     height:100%;
+    
+    .header{        
+        display:flex;
+        flex-direction: column;
+        color: #aaa;
+    }
+    .btn{
+        text-align:left;
+        width:auto;
+        font-size: smaller;
+        color: white;
+    }
+    .btn:hover{
+        opacity: 0.5;
+   }
 }

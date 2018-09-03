@@ -7,11 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CarouselComponent implements OnInit {
   images: Array<Image> = [
-    {image:'1.jpg', header: "First slide label", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
-    {image:'2.jpg', header: "Second slide label", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
-    {image:'3.jpg', header: "Third slide label", text: "Praesent commodo cursus magna, vel scelerisque nisl consectetur."},
-    {image:'4.jpg', header: "Forth slide label", text: "Nulla vitae elit libero, a pharetra augue mollis interdum."},
-    {image:'7.jpg', header: "Seventh slide label", text: "Praesent commodo cursus magna, vel scelerisque nisl consectetur."},
+    {image:'1.jpg', header: "Najlepszy prezent na wesele", text: "Zaskoć niespodzianką."},
+    {image:'2.jpg', header: "Wychoduj własnego motyla", text: "Na mini-farmie domowej."},
+    {image:'3.jpg', header: "Wypuść salut z motyli", text: "Twoje święto będzie egzotychnym."},
+    {image:'4.jpg', header: "Zrób święto niezapomnianym", text: "Dzięki motylam tropikalnym."},
+    {image:'7.jpg', header: "Otwórz jasne kolory natury", text: "Dla twoich urodzin."},
   ];
 
   constructor() { }

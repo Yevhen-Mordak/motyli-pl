@@ -5,6 +5,21 @@
 ngb-accordion > div > div.card-header{
     padding:0;
 }
+.kontakt-form{
+    display: flex;
+    flex-direction:row;
+}
+.flex-column{
+    display: flex;
+    flex-direction:column;
+}
+a.btn{
+    display: inline-block;
+    margin-bottom:0.75rem;
+    i{
+        margin-right:0.75rem;
+    }
+}
 
 form{
     padding: 0.75rem;

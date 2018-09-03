@@ -1,5 +1,5 @@
 <div>
- <h5>Sprawdź częste pytania</h5>
+ <h5>Sprawdź często zadawane pytania</h5>
   <ngb-accordion #acc="ngbAccordion">
       <ngb-panel id="acc-header-panel"><!-- title="FAQ - Często zadawane pytania" -->
         <ng-template ngbPanelTitle> 
@@ -11,15 +11,17 @@
         </ng-template>
       </ngb-panel>
   </ngb-accordion>
-
+<!-- 
 <h5 class='margin-top'>Formularż Kontaktowy</h5>
-<app-kontakt-form></app-kontakt-form>
+<app-kontakt-form></app-kontakt-form> -->
 
 <h5 class='margin-top'>Skontaktuj się z nami</h5>
 <form class="kontakt-form">
-  <p><i class="fab fa-facebook-messenger"></i> messenger: <a href="http://m.me/margaryta.e" target="_blank">Message on Facebook</a></p>
-  <p><i class="fab fa-telegram"></i> telegram: <a href="http://t.me/48535768070" target="_blank">Message margaryta.e on Telegram</a></p>
-  <p><i class="fas fa-at"></i> mail: m.yevtuh@gmail.com</p>
-  <p><i class="fas fa-mobile-alt"></i> tel.: 535-768 070 - Margaryta</p>
+  <div class="flex-column">
+    <a class="btn btn-outline-primary" href="http://m.me/margaryta.e" ><i class="fab fa-facebook-messenger"></i>Facebook messenger</a>
+    <a class="btn btn-outline-primary"><i class="fas fa-at"></i>m.yevtuh@gmail.com</a>
+    <a class="btn btn-outline-primary"><i class="fas fa-mobile-alt"></i>+48 535-768-070</a>
+  </div> 
+  <div class="flex-filler"></div>
 </form>
 </div>
