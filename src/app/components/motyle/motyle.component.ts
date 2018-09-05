@@ -9,7 +9,7 @@ export class MotyleComponent implements OnInit {
 
   cards:Array<Card> = [
     {
-      title:"Attacus atlas",
+      title:"1. Attacus atlas",
       subtitle:"Phillipines",
       image:"assets/images/1.jpg",
       text: `Attacus Atlas - motyl nocny, jeden z największych na całym świecie. Rozpiętość skrzydeł 18-26 cm. 
@@ -20,7 +20,7 @@ export class MotyleComponent implements OnInit {
       Бабочка хорошо подходит для единичного подарка или для мини-фермы. Однако стоит помнить о внушительных размерах особи и мохнатой структуре тела бабочки, чтобы случайно не напугать нового владельца.`
     },
     {
-      title:"Papilio palinurus",
+      title:"2. Papilio palinurus",
       subtitle:"Phillipines",
       image:"assets/images/2.jpg",
       text: `Papilio palinurus или бабочка-павлин - как ее гордо называют. Бабочка имеет оригинальную форму крыльев, концы вытянуты в каплевидную форму. Яркий окрас позволяет бабочке укрываться от хищников в листве деревьев.
@@ -29,7 +29,7 @@ export class MotyleComponent implements OnInit {
       Бабочка очень фотогенична, в полете прекрасно расправляет крылья, что позволяет фотографам сделать отличные снимки. Хорошо смотрится в салютах из бабочек, обладает динамикой и грацией.`
     },
     {
-      title:"Papilio Rumanzovia",
+      title:"3. Papilio Rumanzovia",
       subtitle:"Phillipines",
       image:"assets/images/3.jpg",
       text: `Бабочка Papilio Rumanzovia или Красный Мормон является одной из самых узнаваемых бабочек.  Размах крыльев достигает 12-14 см. Продолжительность жизни - 7-10 дней. 
@@ -37,25 +37,25 @@ export class MotyleComponent implements OnInit {
       Бабочка расправляет крылья, когда садится, поэтому является одной из любимых для фотографов. Подходит как для подарков в открытке, так и для массовых салютов.`
     },
     {
-      title:"4",
+      title:"4. x",
       subtitle:"4",
       image:"assets/images/4.jpg",
       text: `4.`
     }, 
     {
-      title:"5",
+      title:"5. y",
       subtitle:"5",
       image:"assets/images/5.jpg",
       text: `5.`
     }, 
     {
-      title:"6",
+      title:"6. z",
       subtitle:"6",
       image:"assets/images/6.jpg",
       text: `6.`
     }, 
     {
-      title:"7",
+      title:"7. tetta",
       subtitle:"7",
       image:"assets/images/7.jpg",
       text: `7.`

@@ -1,5 +1,23 @@
+h3{
+    margin: 2rem 0 1rem 0;
+}
 .adaptive-card {
     display: inline-flex;
     width: 33.3%; // Show 3 images in a row normaly
     height: auto;
+    flex-direction: column;
+}
+.card-image{
+    width:70px;
+    height:70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centered{
+    text-align: center;
+}
+
+.text-larger{
+    font-size: larger;
 }
