@@ -10,55 +10,96 @@ export class MotyleComponent implements OnInit {
   cards:Array<Card> = [
     {
       title:"1. Attacus atlas",
-      subtitle:"Phillipines",
-      image:"assets/images/1.jpg",
+      subtitle:"Filipiny",
+      image:"assets/images/catalog/atlas-moth-522616_1280.jpg",
       text: `Attacus Atlas - motyl nocny, jeden z największych na całym świecie. Rozpiętość skrzydeł 18-26 cm. 
-      Бабочка обладает необычным раскрасом - на коричневом фоне виднеются розовые линии, а серые треугольники практически прозрачны. 
-      Кокон охраняет бабочку от хищников и является инструментом естественного отбора - только сильные бабочки смогут выбраться из него наружу. Еще на этапе кокона можно отличить самца от самки. Самка заметно больше самца и имеет размах крыльев 24-26 см, в то время как размах крыльев самца 18-20 см.
-      Отличительной особенностью данного вида является то, что при наступлении холода бабочка может впасть в спячку и провести в ней год до наступления тепла.
-      Продолжительность жизни бабочки около 7 дней, при чем кормить бабочку не требуется, так как питается она собственными запасами со времен куколки.
-      Бабочка хорошо подходит для единичного подарка или для мини-фермы. Однако стоит помнить о внушительных размерах особи и мохнатой структуре тела бабочки, чтобы случайно не напугать нового владельца.`
+      Motyl ma niezwykły kolor - na brązowym tle widoczne są różowe linie, a szare trójkąty są prawie przezroczyste.
+      Kokon chroni motyla przed drapieżnikami i jest narzędziem doboru naturalnego - tylko silne motyle mogą wydostać się z niego na zewnątrz. Nawet na etapie kokonu możliwe jest odróżnienie samca od samicy. Samica jest znacznie większa od samca i ma rozpiętość skrzydeł 24-26 cm, natomiast rozpiętość skrzydeł wynosi 18-20 cm.
+      Cechą charakterystyczną tego gatunku jest to, że na początku zimy motyl może wpaść w stan hibernacji i spędzić tak rok przed nadejściem gorąca.
+      Oczekiwana długość życia motyla wynosi około 7 dni i nie jest konieczne karmienie motyla, ponieważ żywi się on własnymi zapasami od czasu poczwarki.
+      Motyl doskonale nadaje się na pojedynczy prezent lub na mini farmę. Warto jednak pamiętać o imponującym rozmiarze osobnika i kudłatej strukturze ciała motyla, aby przypadkowo nie wystraszyć nowego właściciela.
+      `
     },
     {
       title:"2. Papilio palinurus",
-      subtitle:"Phillipines",
-      image:"assets/images/2.jpg",
-      text: `Papilio palinurus или бабочка-павлин - как ее гордо называют. Бабочка имеет оригинальную форму крыльев, концы вытянуты в каплевидную форму. Яркий окрас позволяет бабочке укрываться от хищников в листве деревьев.
-      Размах крыльев достигает 8-10 см. Питается цитрусовыми фруктами. Продолжительность жизни около 7-10 дней.
-      Страны обитания бабочки - Филиппины, Таиланд, Малайзия. 
-      Бабочка очень фотогенична, в полете прекрасно расправляет крылья, что позволяет фотографам сделать отличные снимки. Хорошо смотрится в салютах из бабочек, обладает динамикой и грацией.`
+      subtitle:"Filipiny, Tajlandia, Malezja",
+      image:"assets/images/catalog/emerald-swallowtail-1394288_1280.jpg",
+      text: `Papilio palinurus lub motyl-pawi - jak się go dumnie nazywa. Motyl ma oryginalny kształt skrzydeł, a końce wydłużają się w kształt kropli. Jasny kolor pozwala motylowi ukryć się przed drapieżnikami w liściach drzew.
+      Rozpiętość skrzydeł osiąga 8-10 cm, karmi się owocami cytrusowymi. Średnia długość życia wynosi około 7-10 dni.
+      Siedlisko motyli - Filipiny, Tajlandia, Malezja.
+      Motyl jest bardzo fotogeniczny, w locie doskonale rozpościera skrzydła, co pozwala fotografom wykonywać doskonałe zdjęcia. Wygląda dobrze w “fajerwerkach z motyli”, ma dynamikę i wdzięk.
+      `
     },
     {
       title:"3. Papilio Rumanzovia",
-      subtitle:"Phillipines",
-      image:"assets/images/3.jpg",
-      text: `Бабочка Papilio Rumanzovia или Красный Мормон является одной из самых узнаваемых бабочек.  Размах крыльев достигает 12-14 см. Продолжительность жизни - 7-10 дней. 
-      Самцы и самки бабочки имеют различный окрас - у самцов менее выражен красный цвет. Страны обитания бабочки - Филиппины, Таиланд, Малайзия. 
-      Бабочка расправляет крылья, когда садится, поэтому является одной из любимых для фотографов. Подходит как для подарков в открытке, так и для массовых салютов.`
+      subtitle:"Filipiny, Tajlandia, Malezja",
+      image:"assets/images/catalog/butterfly-53016_1280.jpg",
+      text: `Motyl Papilio rumanzovia lub Red Mormon jest jednym z najbardziej rozpoznawalnych motyli. Rozpiętość skrzydeł wynosi 12-14 cm, średnia długość życia to 7-10 dni.
+      Samce i samice mają inny kolor - u mężczyzn mniej wyraźny czerwony kolor. Siedlisko motyli - Filipiny, Tajlandia, Malezja.
+      Motyl rozkłada skrzydła, gdy siada, więc jest jednym z ulubionych dla fotografów. Nadaje się do prezentów w pocztówkach, jak również do masowych salw z żywych motyli.
+      `
     },
     {
-      title:"4. x",
-      subtitle:"4",
-      image:"assets/images/4.jpg",
-      text: `4.`
+      title:"Cethosia biblis",
+      subtitle:"Indie, Pakistan, Filipiny, Tajlandia",
+      image:"assets/images/catalog/red-lacewing-1394296_1280.jpg",
+      text: `Hojnie obdarzone przez naturę kolorami Cethosia Biblis. Sekretem nazwy tego motyla jest arabskie słowo Biblia, które tłumaczy się jako "książka". Ten motyl to doprawdy piękna ilustrowana książka!
+      Siedlisko motyli - Indie, Pakistan, Filipiny, Tajlandia.
+        Rozpiętość skrzydeł wynosi 6-8 cm, a żywotność to 5-7 dni.
+      Motyl świetnie nadaje się do “motylich fajerwerków”, ponieważ dynamicznie i chaotycznie lata. Jednak Cethosia Biblis jest wyjątkowo przebiegły i może udawać... że jest martwy, spadając na bok. Kiedy niebezpieczeństwo mija, nagle wznosi się i odlatuje.
+      `
     }, 
     {
-      title:"5. y",
-      subtitle:"5",
+      title:"Doleschalia bisaltide",
+      subtitle:"Indie, Pakistan, Filipiny, Tajlandia",
       image:"assets/images/5.jpg",
-      text: `5.`
+      text: `Brązowy kolor motyla sprawia, że wygląda na pozór jak suchy liść.
+      Siedlisko motyli - Indie, Pakistan, Filipiny, Tajlandia.
+      Rozpiętość skrzydeł wynosi 6-8 cm, a żywotność to 5-7 dni.
+      Motyl świetnie nadaje się do fajerwerków, ponieważ lata bardzo dynamicznie.
+      `
     }, 
     {
-      title:"6. z",
-      subtitle:"6",
-      image:"assets/images/6.jpg",
-      text: `6.`
+      title:"Graphium agamemnon",
+      subtitle:"Filipiny",
+      image:"assets/images/catalog/butterfly-2068995_1280.jpg",
+      text: `Zielony trójkąt nazywa się Graphium agamemnon.
+      Jasny kolor motyla przypomina drapieżnikom, że jest niebezpieczny. Występuje na Filipinach.
+      Rozpiętość skrzydeł wynosi 7-8 cm, a żywotność to 5-7 dni.
+      Motyl leci doskonale i nadaje się do salutów.
+      `
     }, 
     {
-      title:"7. tetta",
-      subtitle:"7",
-      image:"assets/images/7.jpg",
-      text: `7.`
+      title:"Pachliopta kotzebuea",
+      subtitle:"Filipiny",
+      image:"assets/images/catalog/crimson-rose-301449_1280.jpg",
+      text: `Purpurowa róża to niezrozumiała nazwa Pachliopta kotzebuea.
+      Jasny kolor motyla przypomina drapieżnikom, że jest niebezpieczny. Występuje na Filipinach.
+      Rozpiętość skrzydeł wynosi 7-8 cm, a żywotność to 5-7 dni.
+      Motyl przepięknie lata i doskonale nadaje się do salutów.
+      `
+    },
+    {
+      title:"Troides rhadamantus",
+      subtitle:"??? 8",
+      image:"assets/images/catalog/Troides rhadamantus.jpg",
+      text: `Troides rhadamantus - duży motyl, którego skrzydła mają spiczasty kształt, co czyni je podobnymi do ptaków w locie.
+      Rozpiętość skrzydeł 12-15 cm Wspaniały motyl do sesji zdjęciowych.
+      Występuje w Azji Południowo-Wschodniej. Chętnie siedzi na rękach. W domu może żyć około dwóch tygodni.      
+      `
+    },
+    {
+      title:"Calligo Memnon",
+      subtitle:"Peru, Kostaryca, Salwadorz, Meksyka",
+      image:"assets/images/catalog/cream-owl-1394293_1280.jpg",
+      text: `Żywy motyl Caligo mieszka w Peru, Kostaryce, Salwadorze, Meksyku. Łacińska nazwa tego motyla to Caligo Memnon. Jeden z naszych największych motyli, jego rozpiętość skrzydeł wynosi 15-17 cm. Na zewnętrznej stronie skrzydła motyl ma dwoje oczu przypominających oczy sowy. W ten sposób motyl straszy drapieżniki. Motyl Caligo radośnie reaguje na przejrzałego banana czy zapach piwa. Ten motyl nie nadaje się do  salw motyli, ponieważ jest znacznie większy niż inne i może w pudełku zmiażdżyć kogoś ze swoich “mniejszych kolegów”.`
+    },
+    {
+      title:"X-X-X",
+      subtitle:"??? 8",
+      image:"assets/images/catalog/Troides rhadamantus.jpg",
+      text: `X-X-X
+      `
     },
             ];
   constructor() { }
