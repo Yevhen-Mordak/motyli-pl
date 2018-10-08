@@ -7,6 +7,7 @@ import { MotyleComponent } from './components/motyle/motyle.component';
 import { SalutComponent } from './components/salut/salut.component';
 import { FarmaComponent } from './components/farma/farma.component';
 import { KontaktComponent } from './components/kontakt/kontakt.component';
+import { FaqComponent } from './components/faq/faq.component';
 
 
 const routes: Routes = [
@@ -59,6 +60,24 @@ const routes: Routes = [
   { path: 'kontakt', component: KontaktComponent,
     data: {
       title: "---", // page title
+      metatags: {
+        description: "---",
+        keywords: "---" // comma separated
+      } 
+    } 
+  },
+  { path: 'faq', component: FaqComponent,
+    data: {
+      title: "---", // page title
+      metatags: {
+        description: "---",
+        keywords: "---" // comma separated
+      } 
+    } 
+  },
+  { path: 'dostawa', component: FaqComponent,
+    data: {
+      title: "Dostawa i Platność", // page title
       metatags: {
         description: "---",
         keywords: "---" // comma separated
