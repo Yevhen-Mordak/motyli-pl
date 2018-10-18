@@ -1,9 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body {
+html {
   height: 100%;
   margin: 0;
-  user-select: none;
+//  user-select: none;
+}
+body, app-root {
+  min-height: 100vh;
 }
 
 .flex-vertical {
@@ -25,4 +28,12 @@ html, body {
 app-root {
   width: 100%;
   overflow-x:hidden;
+}
+
+.hand-poiner{
+  cursor: pointer;
+}
+p{
+  text-align: justify;
+  text-justify: inter-word;
 }

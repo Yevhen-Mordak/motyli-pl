@@ -88,7 +88,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, {enableTracing: /*todo: remove to false*/true, useHash: true})],
+  imports: [RouterModule.forRoot(routes, {scrollPositionRestoration: 'enabled', enableTracing: /*todo: remove to false*/true, useHash: true})],
   exports: [RouterModule]
 })
 export class AppRoutingModule {
