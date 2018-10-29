@@ -16,6 +16,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { FaqComponent } from './components/faq/faq.component';
 import { KontaktFormComponent } from './components/kontakt-form/kontakt-form.component';
 import { CardComponent } from './components/card/card.component';
+import { DostawaComponent } from './components/dostawa/dostawa.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { CardComponent } from './components/card/card.component';
     FooterComponent,
     FaqComponent,
     KontaktFormComponent,
-    CardComponent
+    CardComponent,
+    DostawaComponent
   ],
   imports: [
     AppRoutingModule,
