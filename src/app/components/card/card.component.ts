@@ -11,6 +11,8 @@ export class CardComponent implements OnInit {
   @Input() subtitle:string;
   @Input() image:string;
   @Input() text:string;
+  @Input() cena:string;
+  @Input() staraCena:string;
 
   constructor() { }
 

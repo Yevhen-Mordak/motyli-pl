@@ -9,6 +9,8 @@ import { FarmaComponent } from './components/farma/farma.component';
 import { KontaktComponent } from './components/kontakt/kontakt.component';
 import { FaqComponent } from './components/faq/faq.component';
 import { DostawaComponent } from './components/dostawa/dostawa.component';
+import { RegulaminComponent } from './components/regulamin/regulamin.component';
+import { RodoComponent } from './components/rodo/rodo.component';
 
 
 const routes: Routes = [
@@ -63,6 +65,24 @@ const routes: Routes = [
       metatags: {
         description: "Często zadawane pytania do sklupe motyli.pl",
         keywords: "Dostawa i platność, jak hodować motyli, cena" // comma separated
+      } 
+    } 
+  },
+  { path: 'rodo', component: RodoComponent,
+    data: {
+      title: "RODO i polityka prywatności | motyli.pl", // page title
+      metatags: {
+        description: "RODO i polityka prywatności motyli.pl",
+        keywords: "RODO,Polityka prywatności" // comma separated
+      } 
+    } 
+  },
+  { path: 'regulamin', component: RegulaminComponent,
+    data: {
+      title: "Regulamin motyli.pl", // page title
+      metatags: {
+        description: "Regulamin motyli.pl",
+        keywords: "Regulamin" // comma separated
       } 
     } 
   },

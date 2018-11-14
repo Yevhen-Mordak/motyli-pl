@@ -17,6 +17,9 @@ import { FaqComponent } from './components/faq/faq.component';
 import { KontaktFormComponent } from './components/kontakt-form/kontakt-form.component';
 import { CardComponent } from './components/card/card.component';
 import { DostawaComponent } from './components/dostawa/dostawa.component';
+import { SkontaktujComponent } from './components/skontaktuj/skontaktuj.component';
+import { RodoComponent } from './components/rodo/rodo.component';
+import { RegulaminComponent } from './components/regulamin/regulamin.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +35,10 @@ import { DostawaComponent } from './components/dostawa/dostawa.component';
     FaqComponent,
     KontaktFormComponent,
     CardComponent,
-    DostawaComponent
+    DostawaComponent,
+    SkontaktujComponent,
+    RodoComponent,
+    RegulaminComponent
   ],
   imports: [
     AppRoutingModule,

@@ -27,4 +27,18 @@
 
   <div class="flex-filler"></div>
   <app-footer class="flex-shrink-0"></app-footer>
+
+  <div id="sliding-popup" [ngClass]="showCookies()">
+      <div>
+        <a (click)="acceptCookies()" class="btn btn-outline-primary" style="float:right;"><i class="fas fa-window-close"></i></a>
+        <h5>Strona korzysta z plików cookie w celu efektywnej realizacji usług.</h5>
+        
+      </div>
+      <div style="display:flex;">
+      <div class="flex-filler"></div>
+      <div>Sprawdź zasady przetwarzania twoich danych osobowych w <a routerLink="/rodo">Polityce prywatności</a>.</div>
+      <div class="flex-filler"></div>
+    </div> 
+    
+  </div>    
 </div>

@@ -2,27 +2,27 @@
     <app-carousel></app-carousel>
     <h3 class="centered">Pomysł na prezent</h3>
 
-    <div class=adaptive-card>
+    <div class=non-adaptive-card>
         <img class="card-image" src="assets/images/pomysl/1.svg"/>
         <p class="centered text-larger">Oryginalny prezent</p>
     </div>
-    <div class=adaptive-card>
+    <div class=non-adaptive-card>
         <img class="card-image" src="assets/images/pomysl/2.svg"/>
         <p class="centered text-larger">Prezent na urodziny</p>
     </div>
-    <div class=adaptive-card>
+    <div class=non-adaptive-card>
         <img class="card-image" src="assets/images/pomysl/3.svg"/>
         <p class="centered text-larger">Prezent dla mamy</p>
     </div>
-    <div class=adaptive-card>
+    <div class=non-adaptive-card>
         <img class="card-image" src="assets/images/pomysl/4.svg"/>
         <p class="centered text-larger">Prezent na wesele</p>
     </div>
-    <div class=adaptive-card>
+    <div class=non-adaptive-card>
         <img class="card-image" src="assets/images/pomysl/7.svg"/>
         <p class="centered text-larger">Walentynki</p>
     </div>
-    <div class=adaptive-card>
+    <div class=non-adaptive-card>
         <img class="card-image" src="assets/images/pomysl/6.svg"/>
         <p class="centered text-larger">Wyjątkowy prezent</p>
     </div>
@@ -31,9 +31,9 @@
     <!-- <app-card class="adaptive-card" [title]="card.title"  [subtitle]="card.subtitle" [text]="card.text" [image]="card.image"></app-card> -->
 
 
-    <app-card class="adaptive-card hand-poiner" routerLink="/motyle" title="Katalog"  text="Unikalnym prezentem i pamiętną niespodzianką na ślub lub rocznicę będzie tropikalny motyl na żywo." image="assets/images/towary1-640x426.jpg"></app-card>
-    <app-card class="adaptive-card hand-poiner" routerLink="/salwy" title="Salwy"  text="Salwy z najpiękniejszych motyli na świecie: Morfy, Rumieniec, Calygos pozostawią niezatarte wrażenie na całe życie." image="assets/images/towary2-640x426.jpg"></app-card>
-    <app-card class="adaptive-card hand-poiner" routerLink="/farma" title="Farma"  text="Domowa farma motyli stanie się ciekawą zabawką edukacyjną nie tylko dla dzieci, ale także dla dorosłych." image="assets/images/towary3-640x426.jpg"></app-card>
+    <app-card class="adaptive-card hand-poiner" cena="od 50" routerLink="/motyle" title="Katalog"  text="Unikalnym prezentem i pamiętną niespodzianką na ślub lub rocznicę będzie tropikalny motyl na żywo." image="assets/images/towary1-640x426.jpg"></app-card>
+    <app-card class="adaptive-card hand-poiner" cena="od 150" routerLink="/salwy" title="Salwy"  text="Salwy z najpiękniejszych motyli na świecie: Morfy, Rumieniec, Calygos pozostawią niezatarte wrażenie na całe życie." image="assets/images/towary2-640x426.jpg"></app-card>
+    <app-card class="adaptive-card hand-poiner" staraCena="od 240" cena="od 180" routerLink="/farma" title="Farma"  text="Domowa farma motyli stanie się ciekawą zabawką edukacyjną nie tylko dla dzieci, ale także dla dorosłych." image="assets/images/towary3-640x426.jpg"></app-card>
     <!--     <div class="adaptive-card hand-poiner"  routerLink="/motyle">
         <img class="card-image" src="assets/images/towary1-640x426.jpg"/>
         <p class="centered text-larger">Katalog</p>

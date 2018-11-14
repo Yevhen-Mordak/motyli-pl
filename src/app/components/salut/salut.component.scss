@@ -1,10 +1,4 @@
 
-.adaptive-card {
-    display: inline-flex;
-    width: 33.3%; // Show 3 images in a row normaly
-    height: auto;
-    flex-direction: column;
-}
 .centered{
     text-align: center;
 }
@@ -12,4 +6,15 @@ img{
     width:100%;
     height: auto;
     margin:1rem 0;
+}
+.adaptive-card {
+    display: inline-flex;
+    width: 33.3%; // Show 3 images in a row normaly
+    height: auto;
+    flex-direction: column;
+}
+@media (max-width: 600px) {
+    .adaptive-card {
+      width: 100%; // Override width to show only one image in a row on smaller screens
+    }
 }

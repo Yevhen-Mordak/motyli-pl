@@ -10,4 +10,11 @@
         {{text}}
       </p>
     </div>
+    <div *ngIf='cena' >
+      <div class="cena" *ngIf='!staraCena'>{{cena}} zł</div>
+      <div *ngIf='staraCena' class="cena">
+        <div class="staraCena">{{staraCena}} zł</div> 
+        <div class="nowaCena">{{cena}} zl</div>
+      </div>
+    </div>
 </div>

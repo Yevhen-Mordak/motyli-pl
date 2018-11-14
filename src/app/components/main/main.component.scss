@@ -1,12 +1,6 @@
 h3{
     margin: 2rem 0 1rem 0;
 }
-.adaptive-card {
-    display: inline-flex;
-    width: 33.3%; // Show 3 images in a row normaly
-    height: auto;
-    flex-direction: column;
-}
 .card-image{
     width:70px;
     height:70px;
@@ -20,4 +14,17 @@ h3{
 
 .text-larger{
     font-size: larger;
+}
+
+.non-adaptive-card,
+.adaptive-card {
+    display: inline-flex;
+    width: 33.3%; // Show 3 images in a row normaly
+    height: auto;
+    flex-direction: column;
+}
+@media (max-width: 600px) {
+    .adaptive-card {
+      width: 100%; // Override width to show only one image in a row on smaller screens
+    }
 }

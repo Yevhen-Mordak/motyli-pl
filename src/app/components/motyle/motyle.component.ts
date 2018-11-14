@@ -83,22 +83,18 @@ export class MotyleComponent implements OnInit {
       `
     }, 
     {
-      title:"0x9. Attacus atlas",
-      subtitle:"Filipiny",
-      image:"assets/images/catalog/atlas-moth-522616_1280.jpg",
-      text: `Attacus Atlas - motyl nocny, jeden z największych na całym świecie. Rozpiętość skrzydeł 18-26 cm. 
-      Motyl ma niezwykły kolor - na brązowym tle widoczne są różowe linie, a szare trójkąty są prawie przezroczyste.
-      Kokon chroni motyla przed drapieżnikami i jest narzędziem doboru naturalnego - tylko silne motyle mogą wydostać się z niego na zewnątrz. Nawet na etapie kokonu możliwe jest odróżnienie samca od samicy. Samica jest znacznie większa od samca i ma rozpiętość skrzydeł 24-26 cm, natomiast rozpiętość skrzydeł wynosi 18-20 cm.
-      Cechą charakterystyczną tego gatunku jest to, że na początku zimy motyl może wpaść w stan hibernacji i spędzić tak rok przed nadejściem gorąca.
-      Oczekiwana długość życia motyla wynosi około 7 dni i nie jest konieczne karmienie motyla, ponieważ żywi się on własnymi zapasami od czasu poczwarki.
-      Motyl doskonale nadaje się na pojedynczy prezent lub na mini farmę. Warto jednak pamiętać o imponującym rozmiarze osobnika i kudłatej strukturze ciała motyla, aby przypadkowo nie wystraszyć nowego właściciela.
-      `
-    },
-    {
-      title:"Morpho peleide",
+      title:"09. Morpho peleide",
       subtitle:"Meksyk, Argentyna i Peru",
       image:"assets/images/catalog/blue-morpho-784979_1280.jpg",
       text: `Żywy motyl Morphida (łacińska nazwa Morpho peleides) jest jednym z najpiękniejszych motyli na świecie. Ma rzadki niebieski kolor z metalicznym blaskiem. Jeden z naszych największych motyli, jego swing osiąga 15 cm. Doskonały zarówno do pojedynczych prezentów, jak i do salw z motyli.
+      `
+    },
+    {
+      title:"10. Attacus atlas",
+      subtitle:"Filipiny",
+      image:"assets/images/catalog/atlas-moth-522616_1280.jpg",
+      text: `Attacus Atlas - motyl nocny, jeden z największych na całym świecie. Rozpiętość skrzydeł 18-26 cm. 
+      Warto jednak pamiętać o imponującym rozmiarze osobnika i kudłatej strukturze ciała motyla, aby przypadkowo nie wystraszyć nowego właściciela.
       `
     },
             ];

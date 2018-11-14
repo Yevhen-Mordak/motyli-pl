@@ -14,4 +14,12 @@ export class AppComponent {
   {
         seoService. addSeoData()
   }
+
+  public showCookies(){
+    return localStorage.getItem('acceptedCookies') ? '' : 'show';
+  }
+
+  public acceptCookies(){
+    return localStorage.setItem('acceptedCookies', 'show');
+  }
 }
