@@ -7,12 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CarouselComponent implements OnInit {
   images: Array<Image> = [
-    {image:'0.jpg', header: "Najlepszy prezent na wesele", text: "Zaskoć niespodzianką."},
-    {image:'2.jpg', header: "Wychoduj własnego motyla", text: "Na mini-farmie domowej."},
-    {image:'3.jpg', header: "Wypuść salwe z motyli", text: "Twoje święto będzie egzotychnym."},
-    {image:'4.jpg', header: "Zrób święto niezapomnianym", text: "Dzięki motylam tropikalnym."},
-    {image:'1.jpg', header: "MIni Farma motyli na prezent", text: "Zaskoć niespodzianką."},
-    {image:'7.jpg', header: "Otwórz jasne kolory natury", text: "Dla twoich urodzin."},
+    {image:'0.jpg', header: "Najlepszy prezent na wesele", text: "Zaskocz swoich gości kolorową niespodzianką."},
+    {image:'2.jpg', header: "Wyhoduj własnego motyla", text: "Na mini-farmie domowej."},
+    {image:'3.jpg', header: "Wypuść salwe z motyli", text: "Twoje święto stanie się egzotyczne."},
+    {image:'4.jpg', header: "Stwórz niezapomniane święto", text: "Dzięki motylom tropikalnym."},
+    {image:'1.jpg', header: "Mini Farma motyli na prezent", text: "Odkrywaj naturę za swoim dzieckiem."},
+    {image:'7.jpg', header: "Jasne kolory natury", text: "Dla twoich urodzin."},
   ];
 
   constructor() { }

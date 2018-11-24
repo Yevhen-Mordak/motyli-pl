@@ -16,10 +16,10 @@ import { RodoComponent } from './components/rodo/rodo.component';
 const routes: Routes = [
   { path: '', component: MainComponent,
     data: {
-      title: "Kupić żywe motyle w Polsce | Sklep z motylami tropikalnymi - motyli.pl", // page title
+      title: "Żywe motyle kupno w Polsce | Sklep z motylami tropikalnymi - motyli.pl", // page title
       metatags: {
         description: "motyli.pl to pierwszy sklep z żywymi motylami w Polsce. Sprzedajemy motyle tropikalne , organizujemy saluty motylkowe i sprzedajemy motyle. Wszystkie motyle są uprawiane na naszym własnej małej farmie, więc oferujemy tylko świeże motyli na sprzedaż o maksymalnym okresem życia.",
-        keywords: "kupić żywe motyle, żywe motyle, cena, żywe tropikalne motyle, tropikalne motyle, kup tropikalne motyle, żywe motyle w Polsce, żywe motyle Kraków, motyle tropikalne Kraków" // comma separated
+        keywords: "żywe motyle kupno, żywe motyle zakup, żywe motyle, cena, żywe tropikalne motyle, tropikalne motyle, kup tropikalne motyle, żywe motyle w Polsce, żywe motyle Kraków, motyle tropikalne Kraków" // comma separated
       } 
     } 
   }, 
@@ -64,7 +64,7 @@ const routes: Routes = [
       title: "FAQ | Często zadawane pytania | motyli.pl", // page title
       metatags: {
         description: "Często zadawane pytania do sklupe motyli.pl",
-        keywords: "Dostawa i platność, jak hodować motyli, cena" // comma separated
+        keywords: "Dostawa i płatność, jak hodować motyli, cena" // comma separated
       } 
     } 
   },
@@ -88,9 +88,9 @@ const routes: Routes = [
   },
   { path: 'dostawa', component: DostawaComponent,
     data: {
-      title: "Dostawa i platność | motyli.pl", // page title
+      title: "Dostawa i płatność | motyli.pl", // page title
       metatags: {
-        description: "Warunki dostawy i platnośći sklepu motyli.pl",
+        description: "Warunki dostawy i płatnośći sklepu motyli.pl",
         keywords: "Dostawa motyli, płatność motyli, cena" // comma separated
       } 
     } 
