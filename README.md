@@ -2,5 +2,5 @@
 
 ### Angular Experiments and site prototyping
 
-_some smart description_ 
-and `Code` snippets
+_see a working website @_ 
+https://yevhen-mordak.github.io/motyli-pl/
